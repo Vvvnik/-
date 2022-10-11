@@ -1,0 +1,29 @@
+:ministry: Министерство науки и высшего образования Российской Федерации
+:fullname1: Федеральное государственное бюджетное образовательное учреждение высшего образования
+:fullname2: "Владимирский государственный университет имени Александра Григорьевича и Николая Григорьевича Столетовых"
+:shortname: (ВлГУ)
+:cathedra1: Кафедра информационных систем
+:cathedra2: и программной инженерии
+
+:subjectFull: по дисциплине «{subject}»
+:themeFull: Тема: «{theme}»
+
+:madeBy: Выполнил
+:groupFull: студент {group}
+
+:checkedBy: Проверил
+
+:city: Владимир
+
+:title: {work} №{worknumber}
+
+:doctype: book
+:reproducible:
+:listing-caption: Листинг
+:figure-caption: Рисунок
+:table-caption: Taблица
+:appendix-caption: Приложение
+:toc-title: Содержание
+:source-highlighter: rouge
+:toclevels: 2
+:imagesdir: ./images

@@ -1,0 +1,59 @@
+extends: base
+font:
+  catalog:
+    merge: false
+    Times New Roman:
+      normal: times-new-roman-normal.ttf
+      italic: times-new-roman-italic.ttf
+      bold: times-new-roman-bold.ttf
+      bold_italic: times-new-roman-bold-italic.ttf
+    Jetbrains Mono:
+      normal: jetbrains-mono-nerd.ttf
+      italic: jetbrains-mono-nerd.ttf
+      bold: jetbrains-mono-nerd.ttf
+      bold_italic: jetbrains-mono-nerd.ttf
+page:
+  layout: portrait
+  margin: 20mm 15mm 20mm 30mm
+  size: A4
+  numbering:
+    start-at: title
+base:
+  font-family: Times New Roman
+  font-size: 14
+  hyphens: true
+  line-height: 1.5
+
+heading:
+  text-align: center
+  h2:
+    text-transform: uppercase
+    font-style: normal
+  h3:
+    font-style: bold
+
+prose:
+  text-indent: 1.25cm
+
+code:
+  font-family: Jetbrains Mono
+
+codespan:
+  font-family: Jetbrains Mono
+  font-size: 13
+
+caption:
+  font-style: normal
+
+footer:
+  border-width: 0
+  columns: =100%
+  recto: &shared_footer
+    center:
+      content: '{page-number}'
+  verso: *shared_footer
+
+image:
+  align: center
+  caption:
+    text-align: center
