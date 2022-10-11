@@ -5,7 +5,7 @@
 1. Clone the repository
 2. Install asciidoctor & asciidoctor-pdf according with instructions for your OS
 3. Include file `template.adoc` to your document as `include::/full/path/to/template.adoc[]`
-4. Fill required attributes (see [attributesDescription](attributesDescription))
+4. Fill required attributes (see [attributesDescription](attributesDescription.md))
 5. Change attributes in the template, if needed
 6. Generate PDF with command like this:
 
