@@ -35,7 +35,8 @@ class PDFConverterCustomTitlePage < (Asciidoctor::Converter.for 'pdf')
         ink_prose "", align: :right
 
         ink_prose doc.attributes['checkedby'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
-        ink_prose doc.attributes['tutor'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
+        ink_prose doc.attributes['tutorPosition'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
+        ink_prose doc.attributes['tutorName'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
 
         
       end

@@ -56,4 +56,5 @@
 - `theme` &mdash; Name of theme
 - `author` &mdash; Author's name
 - `group` &mdash; Name of group
-- `tutor` &mdash; Name of person, who checked the work
+- `tutorPosition` &mdash; Positon of tutor
+- `tutorName` &mdash; Name of person, who checked the work
