@@ -20,7 +20,7 @@ class PDFConverterCustomTitlePage < (Asciidoctor::Converter.for 'pdf')
       theme_font :title_page do
         theme_font :title_page_title do
           ink_prose doctitle.title, align: :center, color: theme.base_font_color, line_height: 1, margin: 0
-          ink_prose doc.attributes['subjectfull'], align: :center, color: theme.base_font_color, line_height: 1, margin: 0
+          ink_prose doc.attributes['subjectfull'], align: :center, color: theme.base_font_color, line_height: 1, margin: 0 if doc.attributes['subject']
           ink_prose doc.attributes['themefull'], align: :center, color: theme.base_font_color, line_height: 1, margin: 0
         end
       end
@@ -35,7 +35,7 @@ class PDFConverterCustomTitlePage < (Asciidoctor::Converter.for 'pdf')
         ink_prose "", align: :right
 
         ink_prose doc.attributes['checkedby'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
-        ink_prose doc.attributes['tutorposition'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
+        ink_prose doc.attributes['tutorposition'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0 if doc.attributes['tutorposition']
         ink_prose doc.attributes['tutorname'], align: :right, color: theme.base_font_color, line_height: 1, margin: 0
 
         
