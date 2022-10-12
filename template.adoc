@@ -11,7 +11,7 @@
 :madeBy: Выполнил
 :groupFull: студент {group}
 
-:checkedBy: Проверил
+:checkedBy: Принял
 
 :city: Владимир
 
