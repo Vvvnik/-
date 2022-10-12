@@ -52,9 +52,9 @@
 
 - `work` &mdash; Type of work
 - `workNumber` &mdash; Number of work
-- `subject` &mdash; Name of subject
+- `subject` (optional) &mdash; Name of subject
 - `theme` &mdash; Name of theme
 - `author` &mdash; Author's name
 - `group` &mdash; Name of group
-- `tutorPosition` &mdash; Positon of tutor
+- `tutorPosition` (optional) &mdash; Positon of tutor
 - `tutorName` &mdash; Name of person, who checked the work
