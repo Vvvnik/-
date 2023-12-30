@@ -1,0 +1,25 @@
+:doctype: book
+
+:work: Отчёт по лабораторной работе
+:workNumber: 1
+
+:subject: Название предмета
+:theme: Название темы
+
+:author: Имя автора
+:group: Номер группы
+
+:tutorPosition: Должность проверившего
+:tutorName: Имя проверившего
+
+include::<абсолютный-путь-до-template.adoc>[]
+
+= {work} №{worknumber}
+:title-page:
+:toc:
+
+== Цель работы
+
+== Выполнение работы
+
+== Вывод
